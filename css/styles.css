@@ -148,10 +148,6 @@ button:focus {
   border-bottom: 2px solid var(--page-break-line-color);
 }
 
-.page-header_item {
-  flex: 0 1 200px;
-}
-
 .page-header_item:last-child {
   flex-grow:  1;
   text-align: right;
@@ -187,6 +183,7 @@ button:focus {
   float: left;
   width: 200px;
   margin-right: 70px;
+  flex: 0 1 200px;
 }
 
 @keyframes color-change {
