@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+    <meta charset="utf-8">
     <title>Contact John J. Arndt, CPA</title>
     <link rel="shortcut icon" href="https://limeliteds.com/assets/cropped-fox-270x270-89d0e4cd66caac88dbf125f53cf1b993cfa0318b72088bf1eb64f835d5ec3ca7.png">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -8,19 +10,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  
+
   <body>
     <!-- Header including the logo and the main navigation -->
     <header class="page-header">
       <!-- Add your future logo here -->
-      <img src="img/JA-Logo.png" class="profile_logo" alt="Personal logo of John Arndt" class="page-header_item">
+      <img src="img/JA-Logo.png" class="profile_logo" alt="Personal logo of John Arndt">
       <nav class="main-navigation page-header_item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
             <a href="index.html" role="menuitem" class="navigation-list_item">Home</a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class:"navigation-list_item">About Me</a>
+            <a href="about.html" role="menuitem" class="navigation-list_item">About Me</a>
           </li>
           <li role="presentation">
             <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
@@ -31,19 +33,19 @@
         </ul>
       </nav>
     </header>
-    <form action="" method="post" id="contact-form">
+    <form action="/login-form-action" method="post" id="contact-form">
       <label class="standard-label" for="contact-email">E-mail: </label>
       <input type="email" id="contact-email" required>
 
-      <label class=standard-label">Telephone: </label>
+      <label class="standard-label">Telephone: </label>
       <input type="tel" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-      <label for="phone"
+      <label for="phone">
         Enter Phone Number here
       </label>
 
       <label class="standard-label">Message: </label>
       <textarea maxlength="240" id="message" required></textarea>
-      <label for="message"
+      <label for="message">
         Enter message here. Max 240 Characters.
       </label>
 
